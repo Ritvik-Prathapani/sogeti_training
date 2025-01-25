@@ -1,7 +1,7 @@
 def main():
     weight=float(input("Enter the weight in kgs"))
     height=float(input("Enter the height in meters"))
-    bmi=height/(weight**2)
+    bmi=weight/(height**2)
     print(f"bmi is {bmi}")
     if bmi<18:
         print("underweight")
