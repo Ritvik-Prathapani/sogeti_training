@@ -1,5 +1,5 @@
 def main():
-    str=input("enter a string: ")
+    str=input("enter a string: ").split()
     char_count={}
     for char in str:
         if char in char_count:

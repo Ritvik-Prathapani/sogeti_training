@@ -1,5 +1,5 @@
 def main():
-    print("Biill Spliter")
+    print("Bill Spliter")
     people=int(input("Enter the number of people: "))
     bill=float(input("Enter the total bill: "))
     tip=float(input("enter the tip percentaage: "))
