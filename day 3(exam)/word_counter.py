@@ -9,4 +9,3 @@ def main():
     for key,value in char_count.items():
         print(f"{key}: {value}")
 
-main()
