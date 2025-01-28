@@ -43,7 +43,7 @@ class student:
         self.name=name
         self.address=address
     def display(self):
-        print(f"student name is {self.name} and age is {self.address}")
+        print(f"student name is {self.name} and address is {self.address}")
 class school(student):
     def __init__(self,name,address,school):
         super().__init__(name,address)
