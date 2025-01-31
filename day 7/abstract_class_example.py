@@ -3,7 +3,7 @@ from abc import ABC,abstractmethod
 class myclass(ABC):
     @abstractmethod
     def display(self):
-        pass.
+        pass
     def mystatement(self):
         print("hello")
 
