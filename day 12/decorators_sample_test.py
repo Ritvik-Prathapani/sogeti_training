@@ -4,8 +4,7 @@ def log_message(func):
     def wrapper(*args, ** kwargs):
         result = func(*args, ** kwargs)
         log_file_path = "sogeti_training\day 12\decorators_log.txt"
-        # os.
-        # makedirs(os.path.dirname(log_file_path),exist_ok=True)
+        os.makedirs(os.path.dirname(log_file_path),exist_ok=True)
         with open(log_file_path, "a") as log_file:
             log_file.write(result +"\n")
         return result
